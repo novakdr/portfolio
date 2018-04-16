@@ -5,7 +5,9 @@
             <div class='close__button'></div>
         </div>
         <a v-on:click='aboutClick'>about</a>
+        <hr>
         <a v-on:click='projectsClick'>projects</a>
+        <hr>
         <a v-on:click='contactClick'>contact</a>
     </div>
     <header class='masthead'>
@@ -159,6 +161,12 @@ margin: 0 auto;
     transition: all .6s ease-in-out;
 }
 
+hr {
+    border: 1px solid rgb(211,211,211);
+    width: 20%;
+    padding: 0;
+}
+
 .close__wrapper {
     position: absolute;
     top: 1.56rem;
@@ -230,10 +238,12 @@ margin: 0 auto;
     font-family: var(--body-font);
     font-size: 1.5rem;
     color: var(--body-color);
+    padding: 4rem;
 }
 
 .menu__slideout > a:hover {
     cursor: pointer;
+    color: var(--accent-color);
 }
 
 /* SLIDE STYLING FOR MENU */

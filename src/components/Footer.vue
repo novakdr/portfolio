@@ -35,7 +35,7 @@ footer {
 }
 
 .footer__tag {
-    font-size: 1.3rem;
+    font-size: 1.4rem; 
     opacity: .7;
 }
 
@@ -59,7 +59,7 @@ footer {
     width: 20rem;
     display: flex;
     justify-content: space-between;
-    font-size: 2.5rem;
+    font-size: 3rem;
     opacity: .7;
 }
 

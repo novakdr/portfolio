@@ -105,6 +105,7 @@ hr {
     width: 60vw;
     margin: 0 auto;
     margin-top: 2rem;
+    padding-left: 5rem;
 }
 
 .work__card-header > h3 {
@@ -145,6 +146,7 @@ hr {
     
     .work__card {
         width: 85vw;
+        padding-left: 0;
     }
 
     .work__card-header > h3 {
@@ -169,6 +171,7 @@ hr {
     .work__card {
         width: 80vw;
         margin-left: 6rem;
+        padding-left: 0;
     }
 
     .work__card-body {    
