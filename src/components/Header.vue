@@ -26,7 +26,6 @@
 
 <script>
 export default {
-    name: 'Header',
     methods: {
         menuOpen: function() {
         document.querySelector('.menu__slideout').classList.add('right');
@@ -161,15 +160,9 @@ margin: 0 auto;
     transition: all .6s ease-in-out;
 }
 
-hr {
-    border: 1px solid rgb(211,211,211);
-    width: 20%;
-    padding: 0;
-}
-
 .close__wrapper {
     position: absolute;
-    top: 1.56rem;
+    top: 1.66rem;
     left: 1.56rem;
     height: 1.25rem;
     width: 1.25rem;
@@ -238,7 +231,8 @@ hr {
     font-family: var(--body-font);
     font-size: 1.5rem;
     color: var(--body-color);
-    padding: 4rem;
+    margin: 6rem 0;
+    padding: 0;
 }
 
 .menu__slideout > a:hover {
@@ -293,8 +287,13 @@ hr {
     }
 
     .menu__slideout {
+        height: 100vh;
         width: 100vw;
         right: -100vw;
+    }
+
+    .menu__slideout > a {
+        font-size: 1.7rem;
     }
 
     .close__button,

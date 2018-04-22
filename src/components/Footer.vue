@@ -2,7 +2,7 @@
  <footer>
     <div class='footer__container'>
         <div class='footer__tag'>
-            <p>Made with <i class="fab fa-vuejs"></i> and <i class="far fa-heart"></i> by Dave Novak &copy 2018</p>
+            <p>Made with <i class="far fa-heart"></i> by Dave Novak &copy 2018</p>
         </div>
         <div class='footer__social'>
             <a href='https://github.com/novakdr' target='_blank' rel='noopener noreferrer'><i class="fab fa-github"></i></a>
@@ -16,7 +16,6 @@
 
 <script>
 export default {
-    name: 'Footer'
 }
 </script>
 
@@ -118,6 +117,5 @@ footer {
     .footer__social > p {
         margin: 0;
     }
-
 }
 </style>

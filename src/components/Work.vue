@@ -58,7 +58,7 @@
             </h3>
         </div>
         <div class='work__card-body'>
-            <p>CLI faux storefront that a user can purchase items from and that manager can update stock.</p>
+            <p>CLI faux storefront that a user can purchase items from and the manager can update stock.</p>
             <p><span class='built'>Built with:</span> NodeJS, MySQL, and Inquirer.</p>
         </div>
     </div>
@@ -67,7 +67,6 @@
 
 <script>
 export default {
-    name: 'Work'
 }
 </script>
 
@@ -96,7 +95,7 @@ export default {
 
 hr {
     display: none;
-    border: 1px solid rgb(211,211,211);
+    border: 1px solid rgb(211,211,211, 0.6);
     width: 50vw;
     margin: 2rem 0;
 }
