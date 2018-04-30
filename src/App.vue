@@ -378,6 +378,10 @@ display: none;
   font-style: normal;
 }
 
+section {
+  padding: 2rem 0;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
     margin-bottom: 12rem;
